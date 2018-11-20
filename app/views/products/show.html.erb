@@ -1,18 +1,20 @@
 <p id="notice"><%= notice %></p>
-
-<p>
+<%= render 'layouts/navigation' %>
+<h1>
   <strong>Title:</strong>
   <%= @product.title %>
+</h1>
+
+<p class="image">
+  <%= image_tag(@product.img_url, class: 'list-image') %>
+  <br>
+  <strong>View</strong>
 </p>
+
 
 <p>
   <strong>Description:</strong>
   <%= @product.description %>
-</p>
-
-<p>
-  <strong>Img url:</strong>
-  <%= @product.img_url %>
 </p>
 
 <p>
