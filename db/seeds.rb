@@ -26,7 +26,6 @@ Product.create!(title: 'Uber Eats',
         img_url: 'hudson_apt.jpg',
         price: 55.55)
         
-        
 Product.create!(title: 'Uber Freight',
     description:
         %{<p>
@@ -35,7 +34,6 @@ Product.create!(title: 'Uber Freight',
         </p>},
         img_url: 'Chicago_Skyline.jpg',
         price: 38.39)
-        
         
 Product.create!(title: 'Uber Gondola',
     description:

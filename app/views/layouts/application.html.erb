@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<%# this is a "wrapper file" tha wraps all the files i.e. pages of the site%>
+
 <html>
   <head>
     <title>DEPOT</title>
@@ -10,6 +13,7 @@
   </head>
 
   <body>
+    <%= render 'layouts/navigation' %>
     <main class='<%=controller.controller_name%>'>
     <%= yield %>
     </main>
