@@ -7,12 +7,19 @@ $navbar-default-bg: black;
 
 #logo {
   float: left;
-
   font-size: 1.7em;
   color: white;
   letter-spacing: 2px;
   font-weight: bold;
   font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+
+#intro {
+  color: #276EF1;
+  color: #F05139;
+  color: #46B174;
+  text-decoration: none;
 }
 
 #logo:hover {
@@ -25,9 +32,10 @@ $navbar-default-bg: black;
 }
 
 .jumbotron {
-  background-image: asset-url('Chicago_Skyline.jpg');
+  background-image: asset-url('site_aerial.png');
   background-size: cover;
   height: 550px;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
 }
 
 .jumbotron h1{
@@ -36,11 +44,13 @@ $navbar-default-bg: black;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
 }
 
 .btn-xlarge{
   font-size: 1.7em;
-  background-color: red;
+  background-color: #5879DB;
+  border: #5879DB;
 
 }
 
