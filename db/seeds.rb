@@ -43,3 +43,11 @@ Product.create!(title: 'Uber Gondola',
         </p>},
         img_url: 'skiing.jpg',
         price: 15.40)
+        
+Rendering.create!(title: 'West View',
+                 description: 'Looking West',
+                 image: '/images/700_West.jpg')
+                 
+Rendering.create!(title: 'South View',
+                 description: 'Looking South',
+                 image: '/images/700_South.jpg')
