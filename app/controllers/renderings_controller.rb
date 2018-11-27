@@ -1,5 +1,5 @@
 class RenderingsController < ApplicationController
     def index
-        @renderings = Rendering.all.limit(2)
+        @renderings = Rendering.all.limit(3)
     end
 end
